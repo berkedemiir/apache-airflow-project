@@ -1,3 +1,8 @@
+# python virtual environment setup
+source /Users/user/airflow/airflow_env/bin/activate
+
+
+
 # starting airflow webserver in first terminal 
 export AIRFLOW_HOME=$(pwd)/airflow
 airflow db init
