@@ -1,4 +1,4 @@
-# setting up  python virtual environment
+# creating a python virtual environment
 python3 -m venv airflow_env
 
 # activate python virtual environment 
