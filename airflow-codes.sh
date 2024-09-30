@@ -4,6 +4,9 @@ python3 -m venv airflow_env
 # activate python virtual environment 
 source /Users/user/airflow/airflow_env/bin/activate
 
+# download a apache-airflow using pip
+pip install apache-airflow
+
 # starting airflow webserver in first terminal 
 export AIRFLOW_HOME=$(pwd)/airflow
 airflow db init
